@@ -4,7 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css"/>
-    <title>Place Item in Center</title>
+  <style>
+	html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.holder {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    width: 100vw;            /* Full viewport width */
+    height: 100vh;           /* Full viewport height */
+    background-color: #f0f0f0; /* Optional: Background color for visibility */
+}
+
+.item-1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+  </style>  <title>Place Item in Center</title>
 </head>
 <body>
     <div class="holder">
